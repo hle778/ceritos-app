@@ -10,7 +10,7 @@ Construido con Laravel Framework 8.54.0
 
 - Version del servidor: Apache >= 2.4.38
 - PHP >= 7.3.3
-- Mysql Ver 15.1 Distrib 10.1.38-MariaDB
+- Mysql >= 5.0.12
 
 ### Instalación
 
