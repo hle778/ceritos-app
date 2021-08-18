@@ -14,17 +14,27 @@ Construido con Laravel Framework 8.54.0
 
 ### Instalación
 
-- Clone el repositorio<br>`https://github.com/hle778/ceritos-app.git` 
-- Cambiar a la carpeta del repositorio<br>`cd ceritos-app`
-- Instalar todas las dependencias<br>`composer install`
-- Instalar dependencias de **NPM**<br>`npm install`<br>`npm run dev`
-- Copie el archivo env de ejemplo **.env.example** y realice los cambios de configuración necesarios en el archivo **.env**<br>`cp .env.example .env`
-- Genere una nueva clave de aplicación<br>`php artisan key: generate`
+- Clone el repositorio<br>
+`https://github.com/hle778/ceritos-app.git` 
+- Cambiar a la carpeta del repositorio<br>
+`cd ceritos-app`
+- Instalar todas las dependencias<br>
+`composer install`
+- Instalar dependencias de **NPM**<br>
+`npm install`<br>
+`npm run dev`
+- Copie el archivo env de ejemplo **.env.example** y realice los cambios de configuración necesarios en el archivo **.env**<br>
+`cp .env.example .env`
+- Genere una nueva clave de aplicación<br>
+`php artisan key: generate`
 - Cree una base de datos vacía para la aplicación con el nombre `ceritos-app`, usando el cliente **Mysql** instalado.
 - Configure las credenciales de su base de datos en su archivo **.env**
-- Ejecute las migraciones de la base de datos (establezca la conexión de la base de datos en **.env** antes de migrar)<br>`php artisan migrate`
-- Inicie el servidor de desarrollo local<br>`php artisan serve`
-- Ahora puede acceder al servidor en:<br>`http://localhost:8000` 
+- Ejecute las migraciones de la base de datos (establezca la conexión de la base de datos en **.env** antes de migrar)<br>
+`php artisan migrate`
+- Inicie el servidor de desarrollo local<br>
+`php artisan serve`
+- Ahora puede acceder al servidor en:<br>
+`http://localhost:8000` 
 
 ### Autor
 
