@@ -74,7 +74,7 @@
                     cell.prop('disabled', true);
                     cell.text((((data.turnCounter) % 2) == 0) ? 'X' : 'O');
                     cell.blur();
-
+     
                     if (data.winner) {
                         $('#gameMessage').text("Ha ganado " + (((data.turnCounter % 2) == 0) ? data.game.player_x.name : data.game.player_o.name) + '!!!');
 
@@ -87,8 +87,10 @@
                             $('#'+value).addClass("btn-success");
                         });
                     }
+                    else if (data.turnCounter == 8)
+                        $('#gameMessage').text("Juego empatado");
                     else
-                        $('#gameMessage').text("Turno para " + ((((data.turnCounter+1) % 2) == 0) ? data.game.player_x.name : data.game.player_o.name));      
+                        $('#gameMessage').text("Turno para " + ((((data.turnCounter+1) % 2) == 0) ? data.game.player_x.name : data.game.player_o.name));
                 }
             });
         });
