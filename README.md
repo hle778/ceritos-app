@@ -28,5 +28,5 @@ Construido con Laravel Framework 8.54.0
 
 ### Autor
 
-Hector Alejandro Lam Echavarria
+Hector Alejandro Lam Echavarria<br>
 <hecticodj@gmail.com>
